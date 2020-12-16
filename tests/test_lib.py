@@ -17,3 +17,13 @@ class TestWithTwoNumbers(unittest.TestCase):
 
     def test_divide_by_zero(self):
         self.assertRaises(ZeroDivisionError, lib.divide_numbers, 4, 0)
+
+    def test_modulo_two_numbers(self):
+        self.assertEqual(lib.modulo_numbers(4, 2), 0, "Should be 0")
+
+    def test_modulo_by_zero(self):
+        self.assertRaises(ZeroDivisionError, lib.modulo_numbers, 4, 0)
+
+
+if __name__ == "__main__":
+    unittest.main()

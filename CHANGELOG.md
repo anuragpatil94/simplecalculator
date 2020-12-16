@@ -19,3 +19,9 @@ All notable changes to this project will be documented in this file.
 
 - **Fixed**
   - Fixed Divide Function raises ZeroDivisionError when denominator is 0
+
+## [0.0.3] - 2020-12-16
+
+- **Added**
+  - Added Modulo function
+
