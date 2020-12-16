@@ -9,7 +9,7 @@ classifiers = [
 ]
 
 setup(
-    name="simplecalculator",
+    name="anurag-simplecalculator",
     version="0.0.1",
     description="A very basic calculator",
     long_description=open("README.md").read() + "\n\n" + open("CHANGELOG.md").read(),
