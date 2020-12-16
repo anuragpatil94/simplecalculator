@@ -10,7 +10,7 @@ classifiers = [
 
 setup(
     name="anurag-simplecalculator",
-    version="0.0.1",
+    version="0.0.2",
     description="A very basic calculator",
     long_description=open("README.md").read() + "\n\n" + open("CHANGELOG.md").read(),
     long_description_conten_type="text/markdown",
